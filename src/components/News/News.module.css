@@ -1,0 +1,42 @@
+
+.newslist {
+    width: 1500px;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-bottom: solid;
+}
+
+
+
+.header {
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 60px;
+    padding: 50px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+.newsinfo {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+
+img {
+    width: 50%;
+}
+
+p {
+    font-size: 18px;
+    padding-top: 10px;
+}
